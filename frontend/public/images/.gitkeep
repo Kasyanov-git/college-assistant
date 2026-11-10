@@ -1,0 +1,3 @@
+# Файлы для киоска (пути в src/config/kiosk.ts):
+# - college-hero.jpg   — фон стартового экрана
+# - college-logo.png   — логотип (круглый блок с анимацией)

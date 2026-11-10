@@ -1,0 +1,34 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+backend/venv/
+
+# Local data, databases, models, and generated audio
+backend/data/
+backend/torch_cache/
+backend/out.wav
+backend/test.ipynb
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
